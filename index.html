@@ -3,22 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q4 Drill 1</title>
+    <title>Q4Practice1</title>
 </head>
 <body>
-    <input type="text" class="form-control" id="Age" placeholder="type here..">
+    <h1>JavaScript Conditional Statements</h1>
     <button class="btn btn-info" onclick="checkAge()">Check</button>
     <script>
         function checkAge(){
-            var kWh = document.getElementById("Age").value;
-            let cat1 = "Lifeline Consumer";
-            if (isNaN(kWh) || kWh < 0) {
-                alert("Please input a valid number.");
+            if(15<18){
+                alert("You are underage.");
             }
-            else if(kWh <= 100){
-                alert(cat1 + ": You have a discounted rate.")
-            }
-           
+        }
     </script>
 </body>
 </html>
